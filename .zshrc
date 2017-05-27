@@ -91,3 +91,4 @@ alias mvninstall="mvn clean install -Darq.extension.webdriver.browser=chrome -Dw
 alias mvnskiped="mvn clean install -T 10C -DskipTests -Dsettings.offline=true"
 alias mvnarqtest="mvn clean process-test-classes surefire:test@arquillian -Darquillian.asciidoctor.skip=true"
 alias mvnui="mvn frontend:npm@dev"
+alias disable-touchpad="synclient TouchpadOff=1"
